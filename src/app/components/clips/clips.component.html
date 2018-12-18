@@ -1,0 +1,10 @@
+<br>
+<div class="container" *ngIf="clips">
+  <div class="row">
+    <div class="col-sm" *ngFor="let item of clips.data">
+      <iframe [src]="sanitize('https://player.twitch.tv/?video=' + item.id)" height="460" width="740" frameborder="0"
+        scrolling="no" allowfullscreen="true" id="iframeclip">
+      </iframe>
+    </div>
+  </div>
+</div>

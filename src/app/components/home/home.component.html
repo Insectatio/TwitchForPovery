@@ -1,0 +1,23 @@
+<br>
+<form class="form-inline my-2 my-lg-0 justify-content-center" (ngSubmit)="applyFilter()" [formGroup]="searchform">
+  <input class="form-control mr-sm-2 border border-dark" type="search" placeholder="Search ..." aria-label="Search" formControlName="searchinput"
+    id="searchbox">
+  <button class="btn btn-outline-dark btn-outline-secondary btn-lg my-2 my-sm-0" aria-pressed="true" type="submit" id="searchbutton"> Search <i class="material-icons" id="searchicon">
+      search
+    </i></button>
+</form>
+<br>
+<div class="container">
+  <div class="row" *ngIf="filteredItems">
+    <div class="col-md-3 d-flex align-items-stretch" *ngFor="let game of filteredItems" id="cardz">
+      <div class="card-group">
+        <div class="card">
+          <a routerLink="/gamedetails/{{game.id}}"><img class="card-img-top" src="{{game.box_art_url}}" alt="Image Game"></a>
+          <div class="card-body">
+            <h5 class="card-title">{{game.name}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

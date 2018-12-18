@@ -1,0 +1,38 @@
+#detailstext {
+    font-size: 2rem;
+}
+#gamename {
+    font-size: 1.5rem;
+}
+.row .col-md-4 {
+    padding: 5rem;
+}
+.img {
+    border-radius: 25px;
+    border: 2px solid rgb(97, 97, 97);
+} 
+#cardz {
+    padding: 1rem;
+}
+
+#searchbox {
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#searchbox:focus {
+    width: 80%;
+}
+#searchicon {
+    position: relative;
+    top: 6px;
+}

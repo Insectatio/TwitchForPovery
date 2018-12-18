@@ -1,0 +1,28 @@
+.navbar {
+    text-transform: uppercase;
+    background-color: #b9b8b8b6;
+}
+.navbar-brand img{
+    height: 4rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar-dark { 
+    margin-top : 0 !important; 
+    margin-bottom : 1rem !important; 
+}
+
+ #logo {
+    display: block;
+    margin: 0 auto;
+} 
+#button1 {
+    margin: 10px;
+}
+#button2 {
+    margin: 10px;  
+}

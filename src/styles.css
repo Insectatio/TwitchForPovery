@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+body *
+{
+   font-family: Arial;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #b9b8b8b6; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(92, 92, 92); 
+}

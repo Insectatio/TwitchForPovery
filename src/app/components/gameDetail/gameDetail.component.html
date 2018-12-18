@@ -1,0 +1,15 @@
+<br>
+<div class="container" *ngIf="gamedetail">
+  <div class="row">
+    <div class="col-sm" *ngFor="let item of gamedetail.data">
+      <strong id="namegamedetail">{{item.name}}</strong>
+      <br>
+      <img src="{{item.box_art_url}}" id="imgbox">
+      <br>
+      <br>
+      <a routerLink="/gamevideos/{{item.id}}" class="btn btn-outline-dark" role="button" aria-pressed="true" id="buttonz">Live
+        now</a>
+      <a routerLink="/videosofthegame/{{item.id}}" class="btn btn-outline-dark" role="button" aria-pressed="true" id="buttonx">Videos</a>
+    </div>
+  </div>
+</div>

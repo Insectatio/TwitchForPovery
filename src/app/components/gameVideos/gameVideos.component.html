@@ -1,0 +1,23 @@
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 d-flex align-items-stretch" *ngFor="let item of video.data" id="videoz">
+      <div class="card-group">
+        <div class="card">
+          <a href="live/{{item.user_id}}"><img class="card-img-top" src="{{item.thumbnail_url}}" alt="Image Video"></a>
+          <div class="card-body">
+            <strong>
+              <p id="videoname">{{item.title}}</p>
+            </strong>
+            <strong>
+              <button type="button" class="btn btn-outline-info">Language : <strong> {{item.language}} </strong> </button>
+            </strong>
+            <br>
+            <br>
+             <a href="live/{{item.user_id}}" class="btn btn-danger">{{item.type}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

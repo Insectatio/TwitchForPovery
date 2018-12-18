@@ -1,0 +1,18 @@
+<div class="container">
+		<div class="d-flex justify-content-center h-100" *ngFor="let item of user.data">
+			<div class="image_outer_container">
+        <div class="green_icon"></div>
+        <br>
+        <div class="a">
+        <strong><p>{{item.display_name}}</p></strong>
+        </div>
+				<div class="image_inner_container">
+            <img class="card-img-top" src="{{item.profile_image_url}}" alt="Profile Image">
+        </div>
+        <br>
+        <p>Numero di visualizzazioni del canale: {{item.view_count}}</p>
+        <br>
+        <p>Description: {{item.description}}</p>
+			</div>
+		</div>
+	</div>

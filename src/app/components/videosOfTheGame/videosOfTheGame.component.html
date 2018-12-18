@@ -1,0 +1,21 @@
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 d-flex align-items-stretch" *ngFor="let items of gamevideos.data" id="videox">
+      <div class="card-group">
+        <div class="card">
+          <a href="/clips/{{items.id}}"><img class="card-img-top" src="{{items.thumbnail_url}}" alt="Image Video"></a>
+          <div class="card-body">
+            <strong>
+              <p>{{items.title}}</p>
+            </strong>
+            <p>{{items.description}}</p>
+            <button type="button" class="btn btn-outline-info">{{items.view_count}} Views</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
