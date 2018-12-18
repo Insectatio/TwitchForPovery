@@ -11,7 +11,7 @@
   <div class="row" *ngIf="filteredItems">
     <div class="col-md-3 d-flex align-items-stretch" *ngFor="let game of filteredItems" id="cardz">
       <div class="card-group">
-        <div class="card">
+        <div class="card" id="carexs">
           <a routerLink="/gamedetails/{{game.id}}"><img class="card-img-top" src="{{game.box_art_url}}" alt="Image Game"></a>
           <div class="card-body">
             <h5 class="card-title">{{game.name}}</h5>

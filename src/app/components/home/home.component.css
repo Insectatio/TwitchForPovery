@@ -2,13 +2,13 @@
     font-size: 2rem;
 }
 #gamename {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
 .row .col-md-4 {
     padding: 5rem;
 }
 .img {
-    border-radius: 25px;
+    border-radius: 30px;
     border: 2px solid rgb(97, 97, 97);
 } 
 #cardz {
@@ -35,4 +35,18 @@
 #searchicon {
     position: relative;
     top: 6px;
+}
+
+#carexs {
+    box-shadow: 5px 15px 25px rgb(142, 146, 146);
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-radius: 15px;
+}
+
+.card-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-style: solid;
 }
