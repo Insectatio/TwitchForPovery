@@ -19,3 +19,8 @@
     font-size: 20px;
     border-radius: 10px;
 }
+
+#imgbox {
+    border-radius: 20px;
+    box-shadow: 5px 20px 30px rgb(142, 146, 146);
+}
