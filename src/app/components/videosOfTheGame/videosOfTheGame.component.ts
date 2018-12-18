@@ -21,7 +21,6 @@ export class VideosOfTheGameComponent implements OnInit {
     });
     this.home.getVideosOfTheGame(this.id).subscribe(data => {
       this.gamevideos = data;
-      console.log(this.gamevideos.data[1].thumbnail_url);
       this.gamevideos.data.forEach(element => {
         element.thumbnail_url = element.thumbnail_url.replace('{width}', '320');
         element.thumbnail_url = element.thumbnail_url.replace('{height}', '180');
